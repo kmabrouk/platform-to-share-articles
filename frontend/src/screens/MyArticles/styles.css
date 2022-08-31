@@ -1,0 +1,94 @@
+h2,
+h5 {
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.HeaderItem {
+  /* text-decoration: underline; */
+  font-size: 30px;
+}
+
+.CardItem {
+  background: #fff;
+  min-width: 25em;
+  max-width: 25em;
+  max-height: 100em;
+  margin: 0.4em;
+  /* overflow: hidden; */
+  /* cursor: pointer; */
+  /* box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03); */
+  transition: all ease 200ms;
+  /* border-radius: 10px; */
+}
+/* 
+.CardItem Header {
+  text-decoration: overline underline;
+} */
+
+.CardItem Img {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+.CardItem img:hover {
+  transform: scale(1.1);
+  border-radius: 12px;
+}
+.CardItem p {
+  color: rgb(52, 51, 51);
+}
+
+.TitleItem {
+  color: rgb(47, 17, 129);
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 0.2em 0 0 0;
+  text-transform: uppercase;
+}
+
+.BodyItem {
+  padding: 1.2em;
+}
+
+.btndel {
+  color: #fff;
+  background-color: #f30f0f;
+}
+.btndel:hover,
+.btndel:focus,
+.btndel:active,
+.btndel.active,
+.open > .dropdown-toggle.btndel {
+  color: #fff;
+  background-color: #dd2d2d;
+  transform: scale(1.1);
+  border-radius: 4px;
+}
+
+.btnlike {
+  color: #fff;
+  background-color: #0f8cf3;
+}
+.btnlike:hover,
+.btnlike:focus,
+.btnlike:active,
+.btnlike.active,
+.open > .dropdown-toggle.btndel {
+  color: #fff;
+  background-color: #2d88dd;
+}
